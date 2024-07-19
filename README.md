@@ -13,7 +13,7 @@ Machine learning with computer vision typically requires either a large amount o
 ### Data Collection
 We scraped individual JPG files from GIFs in the [NBA-Player-Movements](https://github.com/linouk23/NBA-Player-Movements) repository. These images were labeled as either offensive (1) or defensive (0) and stored in a CSV file for training.
 
-![Court Image](image1.jpg)
+![Court Image](image6.png)
 
 ### Data Standardization
 To standardize the training data categorization, we considered the following criteria:
@@ -42,7 +42,7 @@ The image processing pipeline begins with player detection using the YOLOv4 mode
 ### Classification
 The processed image is input to a fine-tuned ResNet18 model, which outputs a percentage of offensive and defensive favorability. This result is displayed on the web page as the final result.
 
-![Final Result](image5.png)
+![Final Result](image1.jpg)
 
 ## Conclusion
 PlayCaller.ai successfully demonstrates the potential of combining computer vision and machine learning to analyze and classify basketball plays. Our unique approach to dataset generation and image processing ensures efficient and accurate classification, making it a valuable tool for basketball analysis.
