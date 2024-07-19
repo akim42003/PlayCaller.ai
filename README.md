@@ -42,7 +42,7 @@ The image processing pipeline begins with player detection using the YOLOv4 mode
 ### Classification
 The processed image is input to a fine-tuned ResNet18 model, which outputs a percentage of offensive and defensive favorability. This result is displayed on the web page as the final result.
 
-![Final Result](image5.jpg)
+![Final Result](image5.png)
 
 ## Conclusion
 PlayCaller.ai successfully demonstrates the potential of combining computer vision and machine learning to analyze and classify basketball plays. Our unique approach to dataset generation and image processing ensures efficient and accurate classification, making it a valuable tool for basketball analysis.
