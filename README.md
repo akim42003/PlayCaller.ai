@@ -13,7 +13,7 @@ Machine learning with computer vision typically requires either a large amount o
 ### Data Collection
 We scraped individual JPG files from GIFs in the [NBA-Player-Movements](https://github.com/linouk23/NBA-Player-Movements) repository. These images were labeled as either offensive (1) or defensive (0) and stored in a CSV file for training.
 
-![Court Image](image_1.jpg)
+![Court Image](image1.jpg)
 
 ### Data Standardization
 To standardize the training data categorization, we considered the following criteria:
@@ -26,7 +26,7 @@ The resulting dataset was 56.78% favoring the offense. Key criteria included spa
 ### Overview
 Our pipeline for processing and classifying raw footage involved multiple steps: player detection, court mapping using distinct court features, and plotting player positions on a standard 2D court.
 
-![Player Detection](file-L17q9S5obQheDX2od3SlVPqt)
+![Player Detection](image2.jpg)
 
 ### Player Detection
 The image processing pipeline begins with player detection using the YOLOv4 model trained on the COCO dataset. To minimize detection of extraneous elements (e.g., crowd, broadcasting booth), we implemented a cropping function.
