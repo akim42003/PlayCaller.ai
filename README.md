@@ -13,7 +13,7 @@ Machine learning with computer vision typically requires either a large amount o
 ### Data Collection
 We scraped individual JPG files from GIFs in the [NBA-Player-Movements](https://github.com/linouk23/NBA-Player-Movements) repository. These images were labeled as either offensive (1) or defensive (0) and stored in a CSV file for training.
 
-![Court Image](image6.png)
+![Court Image](image5.png)
 
 ### Data Standardization
 To standardize the training data categorization, we considered the following criteria:
